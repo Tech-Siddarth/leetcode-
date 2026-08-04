@@ -4,7 +4,7 @@ class Solution:
         low = min(nums)
         high = max(nums)
         ans = []
-        for i in range (low , high):
+        for i in range (low+1 , high):
             if i not in st:
                 ans.append(i)
         return ans
